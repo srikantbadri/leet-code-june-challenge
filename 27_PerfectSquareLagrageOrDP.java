@@ -17,7 +17,7 @@ Explanation: 13 = 4 + 9.
 **/
 //Problem - https://leetcode.com/problems/perfect-squares/submissions/
 //Solving using lagranges four squares theorem
-//Acc to this thm- any number can be 1,2,3,4 
+//Acc to this thm- any number can be made up by adding perfect square (upt 4 nos max): 1,2,3,4 
 //the answer will be max - 4
 class Solution {
     public int numSquares(int n) {
